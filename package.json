@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-6",
+  "version": "1.0.0",
+  "description": "Proyecto para la tarea 6 de clientes.",
+  "license": "ISC",
+  "author": "Adrian camilo guerra",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vigilar:css": "npx tailwindcss -i ./src/css/entrada.css -o ./src/css/salida.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.24",
+    "jquery": "^3.7.1",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "flowbite": "^3.1.2"
+  }
+}
